@@ -126,10 +126,10 @@
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
   </toolbar>
   <circuit name="pipelined">
@@ -165,5 +165,32 @@
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="3" loc="(290,120)" name="Multiplier"/>
+    <comp lib="3" loc="(430,130)" name="Adder"/>
+    <comp lib="4" loc="(310,90)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="4" loc="(540,100)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(170,110)" to="(250,110)"/>
+    <wire from="(170,130)" to="(170,150)"/>
+    <wire from="(170,130)" to="(250,130)"/>
+    <wire from="(170,210)" to="(280,210)"/>
+    <wire from="(170,90)" to="(170,110)"/>
+    <wire from="(280,160)" to="(280,210)"/>
+    <wire from="(280,160)" to="(310,160)"/>
+    <wire from="(280,210)" to="(500,210)"/>
+    <wire from="(290,120)" to="(310,120)"/>
+    <wire from="(360,140)" to="(360,230)"/>
+    <wire from="(360,140)" to="(390,140)"/>
+    <wire from="(360,230)" to="(640,230)"/>
+    <wire from="(370,120)" to="(390,120)"/>
+    <wire from="(430,130)" to="(540,130)"/>
+    <wire from="(500,170)" to="(500,210)"/>
+    <wire from="(500,170)" to="(540,170)"/>
+    <wire from="(600,130)" to="(640,130)"/>
+    <wire from="(640,130)" to="(640,230)"/>
+    <wire from="(640,130)" to="(810,130)"/>
   </circuit>
 </project>
