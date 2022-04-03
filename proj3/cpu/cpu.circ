@@ -131,10 +131,10 @@
     <tool lib="1" name="NOR Gate"/>
     <sep/>
     <tool lib="4" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
     <tool lib="4" name="Register">
-      <a name="appearance" val="logisim_evolution"/>
+      <a name="appearance" val="classic"/>
     </tool>
   </toolbar>
   <circuit name="cpu">
@@ -518,7 +518,7 @@
     <wire from="(1290,920)" to="(1290,930)"/>
     <wire from="(1290,920)" to="(1790,920)"/>
     <wire from="(130,500)" to="(130,520)"/>
-    <wire from="(130,520)" to="(160,520)"/>
+    <wire from="(130,520)" to="(150,520)"/>
     <wire from="(1320,190)" to="(1320,220)"/>
     <wire from="(1340,210)" to="(1390,210)"/>
     <wire from="(1340,900)" to="(1340,930)"/>
@@ -534,6 +534,9 @@
     <wire from="(1440,470)" to="(1440,660)"/>
     <wire from="(1440,470)" to="(1810,470)"/>
     <wire from="(1470,760)" to="(1470,890)"/>
+    <wire from="(150,400)" to="(150,520)"/>
+    <wire from="(150,400)" to="(2200,400)"/>
+    <wire from="(150,520)" to="(160,520)"/>
     <wire from="(1500,190)" to="(1500,220)"/>
     <wire from="(1520,210)" to="(1560,210)"/>
     <wire from="(1540,410)" to="(1540,540)"/>
@@ -582,6 +585,8 @@
     <wire from="(220,570)" to="(220,630)"/>
     <wire from="(220,570)" to="(230,570)"/>
     <wire from="(220,630)" to="(590,630)"/>
+    <wire from="(2200,400)" to="(2200,640)"/>
+    <wire from="(2200,640)" to="(2250,640)"/>
     <wire from="(2210,230)" to="(2240,230)"/>
     <wire from="(2220,250)" to="(2220,330)"/>
     <wire from="(2220,50)" to="(2220,210)"/>
